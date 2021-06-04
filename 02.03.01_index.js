@@ -16,28 +16,28 @@ const router = express.Router();
 //--- Home
 router.get('/',
     (req, res) => {
-        res.sendFile(__dirname + "/view/home.html");
+        res.sendFile(__dirname + "/home.html");
     }
 );
 
 //--- Profile
 router.get('/profile',
     (req, res) => {
-        res.sendFile(__dirname + "/view/profile.html");
+        res.sendFile(__dirname + "/profile.html");
     }
 );
 
 //--- Login
 router.get('/login',
     (req, res) => {
-        res.sendFile(__dirname + "/view/login.html");
+        res.sendFile(__dirname + "/login.html");
     }
 );
 
 //--- Logout
 router.get('/logout',
     (req, res) => {
-        res.sendFile(__dirname + "/view/logout.html");
+        res.sendFile(__dirname + "/logout.html");
     }
 );
 
