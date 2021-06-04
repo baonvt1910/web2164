@@ -2,7 +2,7 @@
     "dependencies": {
         "express": "^4.17.1"
     },
-    "name": "node-w02",
+    "name": "web",
     "version": "1.0.0",
     "main": "02.03.01_index.js",
     "devDependencies": {},
